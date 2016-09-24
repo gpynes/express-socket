@@ -1,9 +1,11 @@
+// NOTE: express is not included in the package.json 
 var express = require('express'),
     app     = express(),
     port    = 3000,
     ioProm  = require('./socket.js');
 
-    var server = ioProm.init(app);
+// Setup the server
+var server = ioProm.init(app);
 
 // Use a promise to set up the io part once the socket is created.
 ioProm.then(function(io) {
@@ -18,6 +20,7 @@ ioProm.then(function(io) {
     });
 });
 
+// server.listen NOT app.listen
 server.listen(port, function() {
     console.log('Server Listening on port', port);
 });
