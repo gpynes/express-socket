@@ -29,7 +29,7 @@ server.listen(port, function() {
 });
 ```
 
-### Example of how to user express-socket.io
+### Example of how to use express-socket.io
 ```
 var ioProm = require('express-socket.io');
 
