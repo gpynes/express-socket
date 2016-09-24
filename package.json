@@ -1,0 +1,16 @@
+{
+  "name": "socket-io-express-promise",
+  "version": "1.0.0",
+  "description": "A node package to help setup socket-io with express and promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "deferred": "^0.7.5",
+    "socket-io": "0.0.0",
+    "socket.io": "^1.4.8"
+  }
+}
