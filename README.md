@@ -4,7 +4,7 @@
 ```
 var express = require('express');
 var app = express();
-var port = process.ENV.port || 3000;
+var port = process.env.port || 3000;
 
 // ... app attachments
 
@@ -18,7 +18,7 @@ app.listen(port, function() {
 ```
 var express = require('express');
 var app     = express();
-var port = process.ENV.port || 3000;
+var port = process.env.port || 3000;
 var ioProm  = require('express-socket.io');
 var server  = ioProm.init(app);
 
