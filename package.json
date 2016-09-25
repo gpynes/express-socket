@@ -1,6 +1,6 @@
 {
   "name": "express-socket.io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A node package to help setup socket-io with express and promises",
   "main": "index.js",
   "scripts": {

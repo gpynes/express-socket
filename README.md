@@ -20,7 +20,7 @@ var express = require('express');
 var app     = express();
 var port = process.ENV.port || 3000;
 var ioProm  = require('express-socket.io');
-var server  = ioProm(app);
+var server  = ioProm.init(app);
 
 // ... app attachments
 
